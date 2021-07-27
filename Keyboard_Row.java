@@ -5,33 +5,32 @@ import java.util.Set;
 
 class Solution {
     public String[] findWords(String[] words) {
-        Set<Character> qwe = Set.of('q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U',
-                'I', 'O', 'P');
-        Set<Character> asd = Set.of('a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K',
-                'L');
-        Set<Character> zxc = Set.of('z', 'x', 'c', 'v', 'b', 'n', 'm', 'Z', 'X', 'C', 'V', 'B', 'N', 'M');
+        String row1 = "qwertyuiop";
+        String row2 = "asdfghjkl";
+        String row3 = "zxcvbnm";
 
-        List<String> list = new ArrayList<>();
-
-        WORDS: for (String s : words) {
-            Set<Character> set = new HashSet<>();
-            if (qwe.contains(s.charAt(0))) {
-                set = qwe;
-            } else if (asd.contains(s.charAt(0))) {
-                set = asd;
-            } else if (zxc.contains(s.charAt(0))) {
-                set = zxc;
+        ArrayList<String> finalArr = new ArrayList<>();
+        boolean flag = true;
+        for (int i = 0; i < words.length; i++) {
+            if (containss(words[i].toLowerCase(), row1) || containss(words[i].toLowerCase(), row2)
+                    || containss(words[i].toLowerCase(), row3)) {
+                finalArr.add(words[i]);
             }
-
-            for (int i = 1; i < s.length(); i++) {
-                if (!set.contains(s.charAt(i))) {
-                    continue WORDS;
-                }
-            }
-            list.add(s);
         }
+        String[] retArr = new String[finalArr.size()];
+        for (int i = 0; i < finalArr.size(); i++) {
+            retArr[i] = finalArr.get(i);
+        }
+        return retArr;
+    }
 
-        return list.toArray(String[]::new);
+    private static boolean containss(String word, String row) {
+        for (int k = 0; k < word.length(); k++) {
+            if (row.indexOf(word.charAt(k)) < 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
 
