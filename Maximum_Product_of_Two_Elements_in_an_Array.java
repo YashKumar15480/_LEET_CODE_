@@ -3,15 +3,12 @@ import java.util.Arrays;
 class Solution {
     public int maxProduct(int[] nums) {
 
-        for (int i = 0; i < nums.length; i++)
-            nums[i] = nums[i] - 1;
-
         Arrays.sort(nums);
 
         if (nums.length < 2)
             return nums[0];
         else
-            return (nums[nums.length - 2] * nums[nums.length - 1]);
+            return ((nums[nums.length - 2] - 1) * (nums[nums.length - 1] - 1));
 
     }
 }
