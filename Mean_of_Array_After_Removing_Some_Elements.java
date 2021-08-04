@@ -6,9 +6,9 @@ class Solution {
         int removeCount = arr.length / 20;
 
         int sum = 0;
-        for (int i = removeCount; i < arr.length - removeCount; i++) {
+        for (int i = removeCount; i < arr.length - removeCount; i++)
             sum += arr[i];
-        }
+
         return sum / (double) (arr.length - 2 * removeCount);
     }
 }
