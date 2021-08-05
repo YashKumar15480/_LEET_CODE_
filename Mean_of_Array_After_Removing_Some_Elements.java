@@ -14,7 +14,9 @@ class Solution {
 }
 
 public class Mean_of_Array_After_Removing_Some_Elements {
-    public static void main(String[] args) {
+    public static void main.(
+    String[] args)
+    {
 
     }
 
