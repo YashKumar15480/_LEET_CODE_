@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
-        ArrayList<Integer> l1 = new ArrayList<Integer>();
-        ArrayList<Integer> l2 = new ArrayList<Integer>();
-        ArrayList<Integer> l3 = new ArrayList<Integer>();
+        ArrayList<Integer> l1 = new ArrayList<>();
+        ArrayList<Integer> l2 = new ArrayList<>();
+        ArrayList<Integer> l3 = new ArrayList<>();
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 == 0)
