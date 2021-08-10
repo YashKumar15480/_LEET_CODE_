@@ -13,11 +13,6 @@ class Solution {
 
 }
 
-// package LEET CODE SQL CODES;
-
-/**
- * Fibonacci_Number
- */
 public class Fibonacci_Number {
 
     public static void main(String[] args) {
