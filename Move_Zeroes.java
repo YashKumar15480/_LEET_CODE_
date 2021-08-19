@@ -22,7 +22,7 @@ class Solution {
 
 public class Move_Zeroes {
     public static void main(String[] args) {
-//kk
+
     }
 
 }
