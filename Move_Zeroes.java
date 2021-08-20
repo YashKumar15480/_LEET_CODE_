@@ -15,7 +15,7 @@ class Solution {
                     nums[i + 1] = temp;
                 }
             }
-            j++; //l
+            j++;
         }
     }
 }
