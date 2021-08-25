@@ -20,7 +20,7 @@ class Solution {
             a[i] = count;
         }
 
-        return a;
+        return a;// k
 
     }
 }
