@@ -5,9 +5,9 @@ class Solution {
             sb.append('a');
         }
         if (n % 2 == 1) {
-            sb.append('a');
+            sb.append('y');
         } else {
-            sb.append('b');
+            sb.append('k');
         }
         return sb.toString();
     }
