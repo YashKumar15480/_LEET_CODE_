@@ -14,7 +14,7 @@ class Solution {
                     count++;
             }
             if (count == arr[i])
-                l1.add(arr[i])
+                l1.add(arr[i]);
         }
 
         if (l1.size() < 1)
