@@ -51,7 +51,7 @@ class Solution {
 
 public class Super_Palindromes {
     public static void main(String[] args) {
-        //
+
     }
 
 }
