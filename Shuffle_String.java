@@ -14,9 +14,7 @@ class Solution {
     }
 }
 
-/**
- * Shuffle String
- */
+
 public class Shuffle_String {
 
     public static void main(String[] args) {
