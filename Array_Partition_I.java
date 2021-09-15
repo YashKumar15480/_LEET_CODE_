@@ -7,7 +7,7 @@ class Solution {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i += 2) {
-            sum = sum + nums[i];
+            sum = sum + nums[i];//
 
         }
         return sum;
