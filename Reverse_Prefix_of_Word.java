@@ -22,7 +22,7 @@ class Solution {
             sb.append(ch[i]);
         }
 
-        // System.out.print(k);
+        
         return sb.toString();
 
     }
