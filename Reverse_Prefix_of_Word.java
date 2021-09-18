@@ -22,7 +22,6 @@ class Solution {
             sb.append(ch[i]);
         }
 
-        //
         return sb.toString();
 
     }
