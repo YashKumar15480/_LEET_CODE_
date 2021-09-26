@@ -12,8 +12,7 @@ class Solution {
         return s1;
 
     }
-}
-
+}//////////////////////////////////////////////////////
 
 public class Shuffle_String {
 
