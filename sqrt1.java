@@ -19,5 +19,5 @@ public class sqrt1 {
         Solution111 t = new Solution111();
         System.out.println(t.mySqrt(x));
 
-    }//
+    }
 }
