@@ -18,6 +18,6 @@ public class sqrt1 {
         int x = sc.nextInt();
         Solution111 t = new Solution111();
         System.out.println(t.mySqrt(x));
-        
-    }
+
+    }//
 }
