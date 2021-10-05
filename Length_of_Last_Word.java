@@ -11,7 +11,7 @@ class Solution {
                 if (foundLetter)
                     return count;
             }
-        }
+        } //
         return count;
     }
 }
