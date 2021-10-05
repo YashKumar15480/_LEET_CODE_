@@ -11,14 +11,11 @@ class Solution {
                 if (foundLetter)
                     return count;
             }
-        } //
+        }
         return count;
     }
 }
 
-/**
- * Length of Last Word
- */
 public class Length_of_Last_Word {
     public static void main(String[] args) {
         /*
