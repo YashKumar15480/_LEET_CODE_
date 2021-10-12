@@ -30,6 +30,6 @@ class Solution {
 
 public class Valid_Parentheses {
     public static void main(String[] args) {
-        ////
+
     }
 }
