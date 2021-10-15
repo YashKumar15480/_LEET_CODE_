@@ -26,6 +26,6 @@ class Solution {
 
 public class Remove_Outermost_Parentheses {
     public static void main(String[] args) {
-
+//
     }
 }
