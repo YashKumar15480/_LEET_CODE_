@@ -17,6 +17,7 @@ class Solution {
 
 public class Robot_Return_to_Origin {
     public static void main(String[] args) {
-
+        Solution sb = new Solution();
+        System.out.println(sb.judgeCircle("RRRUUULLRRRUDUU"));
     }
 }
